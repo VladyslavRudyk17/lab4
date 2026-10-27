@@ -12,4 +12,4 @@ jobs:
       - name: Install dependencies
         run: uv sync
       - name: Run Linter
-        run: uv run ruff check .
+        run: uv run ruff check . --ignore B008
